@@ -1,7 +1,7 @@
 //this code is lining the create up with the black line
 #include <kipr/botball.h>
 
-//I'm createing A function
+//I'm creating A function
 void find_the_line(int black,int curve,int speed);
 
 int main()
@@ -22,12 +22,12 @@ int main()
     return 0;
 
 }
-//I'm difineing my function
+//I'm difining my function
 void find_the_line(int black,int curve,int speed)
 {
-    while ( get_create_rcliff_amt() >= black || get_create_lcliff_amt() >= black )//do the sensres see wight
+    while ( get_create_rcliff_amt() >= black || get_create_lcliff_amt() >= black )//do the sensers see white
     {
-        if ( get_create_rcliff_amt() >= black && get_create_lcliff_amt() >= black )//do bullth the sensres see wight
+        if ( get_create_rcliff_amt() >= black && get_create_lcliff_amt() >= black )//do both the sensers see white
         {
             create_drive(speed, curve);
             msleep(50);
@@ -35,19 +35,19 @@ void find_the_line(int black,int curve,int speed)
             create_drive(speed, -curve);
             msleep(50);
         }
-        else if ( black >= get_create_rcliff_amt() )//does the right sensres see black
+        else if ( black >= get_create_rcliff_amt() )//does the right sensers see black
         {
-            create_drive(100, -50);//The create is trening left
+            create_drive(100, -50);//The create is turning left
 
         }
 
-        else if ( black >= get_create_lcliff_amt() )//does the left sensres see black
+        else if ( black >= get_create_lcliff_amt() )//does the left sensers see black
         {
-            create_drive(100, 50);//The create is trening right
+            create_drive(100, 50);//The create is turning right
 
         }
 
-        else if( get_create_rcliff_amt() >= black && get_create_lcliff_amt() >= black)//do bullth the sensres see black
+        else if( get_create_rcliff_amt() >= black && get_create_lcliff_amt() >= black)//do both the sensers see black
         {
             break; //this breaks the while loop            
 
