@@ -2,7 +2,7 @@
 //Ryan Sizemore, 2/14
 #include <kipr/botball.h>
 
-//I'm creating A function
+//I'm creating a function
 void find_the_line(int black,int curve,int speed);
 
 int main()
