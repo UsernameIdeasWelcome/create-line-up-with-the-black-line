@@ -1,4 +1,12 @@
-
+<<<<<<< patch-1
+//this code is lining the create up with the black line[Riley 2/14/2019]
+//Ryan, 2/14
+//=======
+//This code whas made by Jacob brown 2/8/2019.
+//This code is lining the create up with the black line.
+//John Stearman 2/14/2019.
+// Added this line on 3/5/19 for the pull request that's required on period 3 documentation.
+>>>>>>> master
 #include <kipr/botball.h>
 
 //I'm creating a function
