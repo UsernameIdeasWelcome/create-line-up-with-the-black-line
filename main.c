@@ -1,5 +1,4 @@
-//this code is lining the create up with the black line[Riley 2/14/2019]
-//Ryan, 2/14
+
 #include <kipr/botball.h>
 
 //I'm creating a function
@@ -15,8 +14,6 @@ int main()
     create_connect();//I'm connecting to the create
 
     find_the_line(black,curve,speed);//I'm calling my function
-
-
 
     create_disconnect();//I'm disconnecting from the create
 
